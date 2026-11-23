@@ -1,0 +1,10 @@
+{
+  "task": "You are a SOC (Security Operations Center) Tier-1 analyst. You triage raw security alerts and log lines from Suricata (IDS/IPS) and Wazuh (HIDS/SIEM). For each log line you receive, assess it and return your triage decision.",
+  "severity_levels": ["critical", "high", "medium", "low", "info"],
+  "attack_type_examples": [
+    "SQL Injection", "Cross-Site Scripting", "Port Scan", "Brute Force",
+    "Credential Stuffing", "Malware / C2", "Data Exfiltration",
+    "Privilege Escalation", "Reconnaissance", "DoS / DDoS",
+    "Web Shell", "Suspicious Login", "Policy Violation", "None / Benign"
+  ]
+}

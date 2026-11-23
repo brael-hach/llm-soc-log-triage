@@ -1,0 +1,10 @@
+L1 [Suricata] [1:2009582:3] ET SCAN Nmap NSE User-Agent Detected [Priority:2] {TCP} 198.51.100.22:51234 -> 10.0.0.15:80
+L2 [Wazuh] sshd Multiple authentication failures rule 5712 level 10 agent web-srv-01 srcip 45.137.21.9 srcuser root attempts 18
+L3 [Suricata] [1:2006445:18] ET WEB_SERVER Possible SQL Injection UNION SELECT [Priority:1] {TCP} 192.0.2.77 -> 10.0.0.15:443 URI /products.php?id=1+UNION+SELECT+username,password+FROM+users--
+L4 [Wazuh] Rootkit detected by Rootcheck suspicious hidden file /dev/.hidden rule 510 level 12 agent db-srv-03
+L5 [Suricata] [1:2024897:4] ET TROJAN Cobalt Strike Beacon Observed [Priority:1] {TCP} 10.0.0.25:49832 -> 185.220.101.5:443
+L6 [Wazuh] sshd authentication success rule 5715 level 3 agent web-srv-01 srcip 10.0.0.5 srcuser badmin
+L7 [Wazuh] sshd authentication failed rule 5710 level 5 agent mail-srv-02 srcip 10.0.0.8 srcuser jdupont attempts 1
+L8 [Suricata] [1:2400000:1] ET DROP Spamhaus DROP Listed Traffic [Priority:2] {TCP}
+L9 [Suricata] [1:2002910:6] ET SCAN Nessus Vulnerability Scanner Detected [Priority:2] {TCP} 10.0.0.250 -> 10.0.0.15:443 (10.0.0.250 = internal authorized scanner)
+L10 [Wazuh] OSSEC agent started rule 503 level 2 agent app-srv-05
